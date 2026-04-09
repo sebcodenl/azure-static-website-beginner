@@ -1,40 +1,48 @@
-🔗 Live website: [Bekijk mijn website](https://stsebasportfolio01.z16.web.core.windows.net/)
+# Azure Static Website – Beginner Project
 
-# Mijn eerste Azure project – Static Website in Azure
+A simple static website hosted on Microsoft Azure using Azure Blob Storage with Static Website Hosting enabled.
 
-Dit is mijn eerste Azure project als beginner in cloud en onderdeel van mijn GitHub-portfolio.
+🔗 **Live demo:** [View website](https://stsebasportfolio01.z16.web.core.windows.net/)
 
-## Over dit project
+---
 
-Voor dit project heb ik een simpele statische website gebouwd met HTML en CSS en gehost in Microsoft Azure via een Storage Account met Static Website Hosting.
+## 📌 About this project
 
-Dit is mijn eerste hands-on ervaring met Azure.
+This is my first hands-on Azure project. I built a simple static website using HTML and CSS and deployed it to Azure using a Storage Account with Static Website Hosting.
 
-## Doel van dit project
+The goal was to understand the basics of cloud hosting and get familiar with the Azure portal and core services.
 
-Ik ben bezig om Azure specialist te worden. Op dit moment studeer ik voor AZ-900 en wil ik daarna AZ-104 doen om te ontdekken wat ik het leukste vind binnen de cloud.
+---
 
-Met dit project wil ik:
-- praktijkervaring opdoen in Azure
-- begrijpen hoe hosting werkt
-- leren werken met GitHub
-- een portfolio opbouwen
+## 🎯 Why Azure Blob Storage?
 
-## Azure services die ik heb gebruikt
+I chose Azure Blob Storage with Static Website Hosting because:
+- It is a cost-effective solution for hosting static content (no server required)
+- It is easy to set up and manage via the Azure portal
+- It integrates well with Azure CDN for future scalability
+- It is a good starting point before moving to Azure Static Web Apps
+
+---
+
+## 🛠️ Azure services used
 
 - Azure Resource Group
 - Azure Storage Account
-- Azure Static Website Hosting
+- Azure Static Website Hosting ($web container)
 
-## Wat ik heb gedaan
+---
 
-- Resource Group aangemaakt
-- Storage Account aangemaakt
-- Static Website ingeschakeld
-- HTML en CSS bestanden geüpload naar de `$web` container
-- Website live gezet via Azure
+## 🚀 Deployment steps
 
-## Projectstructuur
+1. Created a Resource Group in Azure
+2. Created a Storage Account
+3. Enabled Static Website Hosting
+4. Uploaded HTML and CSS files to the `$web` container
+5. Website went live via the Azure endpoint
+
+---
+
+## 📁 Project structure
 
 ```text
 azure-static-website-beginner/
@@ -43,6 +51,12 @@ azure-static-website-beginner/
 ├── 404.html
 ├── README.md
 └── screenshots/
+    ├── resource-group.jpg
+    ├── storage-account.jpg
+    ├── static-website.jpg
+    ├── web-container.jpg
+    ├── custom-404-page.jpg
+    └── live-website.jpg
 ```
 ## Screenshots
 
@@ -58,21 +72,31 @@ azure-static-website-beginner/
 ### $web Container
 ![Web Container](screenshots/web-container.jpg)
 
-### 404
-![Web Container](screenshots/404.jpg)
+### Custom 404 page
+![Web Container](screenshots/custom-404-page.jpg)
 
 ### Live Website
 ![Live Website](screenshots/live-website.jpg)
 
-## Deployment stappen
+---
 
-1. Resource Group aangemaakt in Azure
-2. Storage Account aangemaakt
-3. Static Website ingeschakeld
-4. Bestanden geüpload naar de `$web` container
-5. Website live gezet via Azure endpoint
+## 💡 What I learned
 
-## Kosten
+- How to host a static website on Azure without a server
+- How Azure Storage Accounts and containers work
+- The importance of documenting steps clearly on GitHub
 
-Dit project maakt gebruik van Azure Storage en brengt minimale kosten met zich mee. 
-De volledige omgeving kan eenvoudig verwijderd worden door de Resource Group te verwijderen.
+---
+
+## 🚧 Future improvements
+
+- Connect a custom domain
+- Add Azure CDN for better performance
+- Migrate to Azure Static Web Apps for CI/CD support
+
+---
+
+## 👨‍💻 About me
+
+I am working towards becoming an Azure specialist and actively building my portfolio.
+This project is part of that journey 🚀
