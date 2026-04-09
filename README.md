@@ -40,3 +40,20 @@ azure-static-website-beginner/
 ├── style.css
 ├── README.md
 └── screenshots/
+
+## Screenshots
+
+### Resource Group
+![Resource Group](screenshots/resource-group.jpg)
+
+### Storage Account
+![Storage Account](screenshots/storage-account.jpg)
+
+### Static Website
+![Static Website](screenshots/static-website.jpg)
+
+### $web Container
+![Web Container](screenshots/web-container.jpg)
+
+### Live Website
+![Live Website](screenshots/live-website.jpg)
