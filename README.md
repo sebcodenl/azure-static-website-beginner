@@ -40,7 +40,7 @@ azure-static-website-beginner/
 ├── style.css
 ├── README.md
 └── screenshots/
-
+```
 ## Screenshots
 
 ### Resource Group
